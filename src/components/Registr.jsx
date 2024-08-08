@@ -49,7 +49,7 @@ function Registr() {
 
   return (
     <div className={styles.box}>
-      <img className={styles.img} src="../../public/img/215543.jpg" alt="Not photo" />
+      <img className={styles.img} src="./img/215543.jpg" alt="Not photo" />
      <div>
      <img className={styles.logo} src="./img/UI-Unicorn-Logo.svg" alt="Not foto" />
      <form className={styles.form} onSubmit={handleSubmit}>
