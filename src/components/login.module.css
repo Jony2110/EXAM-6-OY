@@ -1,0 +1,81 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  width: 345px;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 9px;
+  border: 1px solid yellow;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn {
+  width: 360px;
+  height: 40px;
+  border-radius: 9px;
+  border: 1px solid yellow;
+  background-color: rgb(77, 165, 252);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+}
+.btn:hover {
+  background-color: blue;
+}
+.box {
+  display: flex;
+
+  max-width: 1440px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.box .img {
+  width: 980px;
+  height: 710px;
+  margin: 0;
+  margin-left: 0;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 0;
+}
+.passwordContainer {
+  position: relative;
+}
+
+.eyeButton {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 20px;
+}
+
+.eyeButton:focus {
+  outline: none;
+}
+.spann {
+  width: 360px;
+  display: block;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}

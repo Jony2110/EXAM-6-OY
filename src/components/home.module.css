@@ -1,0 +1,88 @@
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1400px;
+}
+
+.span {
+  width: 60px;
+  height: 20px;
+  display: block;
+}
+.card {
+  width: 350px;
+  height: 550px;
+  border: 1px solid rgb(155, 155, 245);
+  padding-left: 11px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  width: 100%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.form input {
+  width: 345px;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 9px;
+  border: 1px solid yellow;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn {
+  width: 360px;
+  height: 40px;
+  border-radius: 9px;
+  border: 1px solid yellow;
+  background-color: rgb(77, 165, 252);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+}
+.btn:hover {
+  background-color: blue;
+}
+.inp {
+  width: 345px;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 9px;
+  border: 1px solid yellow;
+}
+.sp {
+  margin-left: 25px;
+}
+.img21 {
+  width: 250px;
+  height: 200px;
+}
